@@ -62,3 +62,18 @@ body {
   font-size: 0.9em;
   color: #777;
 }
+
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+    margin: 20px;
+  }
+  #city-input {
+    width: calc(100% - 20px);
+  }
+
+  #search-btn {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
